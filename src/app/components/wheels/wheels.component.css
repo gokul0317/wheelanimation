@@ -1,0 +1,35 @@
+.container {
+    margin: 10% auto;
+    width: 500px;
+}
+
+#wheel {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+#wing_glow_btn {
+    position: absolute;
+    z-index: 3;
+    width: 220px;
+    transform: translateX(-68%);
+}
+
+#wing_glow_btn_container {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    z-index: 3;
+    margin-left: 218px;
+    margin-top: 218px;
+    overflow: hidden;
+}
+
+#wing_glow{
+    position: absolute;
+    width: 150px;
+    margin-left: 175px;
+    margin-top: 35px;
+    z-index: 2;
+}
